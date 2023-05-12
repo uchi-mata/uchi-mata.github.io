@@ -6,3 +6,6 @@ ul {
 li {
   margin-left: 15px;
 }
+.transparent {
+  color: rgba(0, 0, 0, 0);
+}
