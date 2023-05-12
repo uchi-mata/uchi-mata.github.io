@@ -36,8 +36,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
   eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("files");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("favicon*");
+  eleventyConfig.addPassthroughCopy("apple-touch-icon.png");
+  eleventyConfig.addPassthroughCopy("site.webmanifest");
+  eleventyConfig.addPassthroughCopy("safari-pinned-tab.svg");
+  eleventyConfig.addPassthroughCopy("android-chrome-*");
+  eleventyConfig.addPassthroughCopy("browserconfig.xml");
+  eleventyConfig.addPassthroughCopy("mstile*");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
