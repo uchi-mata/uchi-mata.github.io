@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Matthias Luft</title>
+	<subtitle>InfoSec Enthusiast &amp; Practicioner.</subtitle>
+	
+	<link href="https://www.rational-security.io/feed/feed.xml" rel="self"/>
+	<link href="https://www.rational-security.io/"/>
+	<updated>2024-11-04T07:26:36Z</updated>
+	<id>https://www.rational-security.io/</id>
+	<author>
+		<name>Matthias Luft</name>
+		<email>matthias.luft@rational-security.io</email>
+	</author>
+</feed>

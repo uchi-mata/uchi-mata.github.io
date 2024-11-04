@@ -1,0 +1,11 @@
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style-type: disc;
+}
+li {
+  margin-left: 15px;
+}
+.transparent {
+  color: rgba(0, 0, 0, 0);
+}
