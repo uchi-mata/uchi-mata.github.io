@@ -1,0 +1,23 @@
+---
+layout: layouts/home.njk
+fa-icon: 'fa-home'
+eleventyNavigation:
+  key: Home
+  order: 1
+  url: /#
+---
+<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+ <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> {{ metadata.title }}.</h1>
+  <p>Information Security Enthusiast & Practicioner.</p>
+  <img src="{{ 'img/landscape.png' | url }}" alt="snow" class="w3-image" width="980">
+</header>
+
+<div class="w3-content w3-text-grey w3-padding-64" id="about">
+  <p>
+    Hi! I am an information security enthusiast and practitioner. After more than 15 years in security,
+    I am still excited about a broad range of topics (from hypervisors via containers/clouds to IT
+    security management/leadership) and have had the opportunity to present on them around the globe.
+    Currently, I work on container and cloud security engineering in cloud-native organizations.
+    I enjoy the outdoors, martial arts, and spending time with dogs in my free time.
+  </p>
+</div>

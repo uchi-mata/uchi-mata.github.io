@@ -1,0 +1,15 @@
+{
+  "title": "Matthias Luft",
+  "url": "https://www.rational-security.io/",
+  "description": "InfoSec Enthusiast & Practicioner.",
+  "feed": {
+    "subtitle": "InfoSec Enthusiast & Practicioner.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://www.rational-security.io/"
+  },
+  "author": {
+    "name": "Matthias Luft",
+    "email": "matthias.luft@rational-security.io"
+  }
+}
